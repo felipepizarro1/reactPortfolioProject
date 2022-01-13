@@ -1,36 +1,19 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import Headercomponent from './components/Header';
+import Bodycomponent from './components/Body';
 
 
 class App extends Component {
   render() {
       return (
           <div className="App">
-              <Navbar dark color="primary">
-              <div className="container">
-                  <NavbarBrand href="/">NuCamp</NavbarBrand>
-              </div>
-              </Navbar>
+              <Headercomponent />
+              <Bodycomponent />
           </div>
       );
   }
 }
 
-function hellofelipe() {
-  return (
-  <div>
-    <div className="container">
-      <div className="row mt-5" >
-          <div className="col-6 m-auto">
-            Hello I'm Felipe
-          </div>
-          <div className="col-6 m-auto">
-            Projects
-          </div>
-      </div>
-    </div>
-  </div>
-  )
-}
+
 
 export default App;
