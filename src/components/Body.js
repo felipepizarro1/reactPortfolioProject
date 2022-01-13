@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-function Bodycomponent() {
+function Homecomponent() {
     return (
         <div className="App">
             <div class="container ">
@@ -12,10 +12,9 @@ function Bodycomponent() {
 
                     </div>
                     <div class="col-6 mt-2">
-                        <img class="img-fluid" src="img/Perrote.png" alt="dog" data-aos="fade-left">
-                        </img>
+                        <h3>Argos Website: Pet Finder Project</h3>
                     </div>
-                 </div>
+                </div>
             </div>
         </div>
     )
@@ -25,8 +24,4 @@ function Bodycomponent() {
 
 
 
-
-
-
-
-export default Bodycomponent;
+export default Homecomponent;
