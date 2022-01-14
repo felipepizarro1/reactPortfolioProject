@@ -12,16 +12,12 @@ function Headercomponent () {
         <div className="App">
             <header>
         <div className="container">
-            <div class="row">
-                <div className="col-12 col-md-3 mr-5 col-sm-8  align-self-center mt-4 ">
-                <div class="col-6 col-sm-5 text-center">
-                    <h5>Social</h5>
-                    <a className="btn btn-social-icon " href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon " href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon " href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon " href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                </div>
-                    
+            <div className="row">
+                <div className="col mt-5 ml-5 col-sm-5 ">
+                    <div className='container mt-3 d-flex'>
+                        <a className="btn btn-social-icon btn-github" href="https://github.com/felipepizarro1" target="_blank"><i className="fa fa-github" /></a>{' '}
+                        <a className="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/felipepizarrodev" target="_blank"><i className="fa fa-linkedin" /></a>{' '}
+                    </div>
                 </div>
 
                 
@@ -41,14 +37,12 @@ function Headercomponent () {
                                     <a className="nav-link" href="#">Contact</a>
                                     </li>
                                     <li className="nav-item">
-                                    <a className="nav-link" href="#">Resume</a>
+                                    <a className="nav-link" href="./src/resume-it-Felipe.pdf" download>Resume</a>
                                     </li>
-                                    
                                 </ul>
                             </div>
                         </nav>
                     </div>
-
                 </div>
             </div>  
                  
