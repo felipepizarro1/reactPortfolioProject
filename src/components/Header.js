@@ -10,7 +10,7 @@ import {
 function Headercomponent () {
     return (
         <div className="App">
-            <header>
+        <header>
         <div className="container">
             <div className="row">
                 <div className="col mt-5 ml-5 col-sm-5 ">
@@ -40,17 +40,16 @@ function Headercomponent () {
                                     <a className="nav-link" href="#">Contact</a>
                                     </li>
                                     <li className="nav-item">
-                                    <a className="nav-link" href="./src/resume-it-Felipe.pdf" download>Resume</a>
+                                    <a className="nav-link" href="resume-it-Felipe.pdf" download>Resume</a>
                                     </li>
                                 </ul>
                             </div>
                         </nav>
                     </div>
                 </div>
-            </div>  
-                 
+            </div>         
         </div>
-    </header>
+        </header>
         </div>
     
   
