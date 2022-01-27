@@ -13,7 +13,7 @@ function Homecomponent() {
                     <div class="col-6 mt-2">
                         <h1>Current Projects</h1>
         
-                        <a href='https://argoswebsite.netlify.app/' target="_blank" style={{ textDecoration: 'none' }}><h3>‣ Argos: PetFinder Redesign Project</h3></a>
+                        <a href='https://argoswebsite.netlify.app/' target="_blank" style={{ textDecoration: 'none' }}><h3>‣ Argos: Scrolling Animation Project</h3></a>
                     </div>
                 </div>
             </div>
