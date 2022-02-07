@@ -5,25 +5,31 @@ import Headercomponent from './components/Header';
 import Homecomponent from './components/Body';
 import Aboutcomponent from './components/About';
 import Contactcomponent from './components/Contact';
-import ContactComponent from './components/Contact';
+
+
 
 
 class App extends Component {
+
+    constructor(props) {
+        super(props);
+      }
+
   render() {
       return (
           <div className="App">
-              <Headercomponent />
-              <Switch>
-                <Route path='/' exact>
-                    <Homecomponent />
-                </Route>
-                <Route path='/about'>
-                    <Aboutcomponent/>
-                </Route>
-                <Route path='/contact'>
-                    <Contactcomponent/>
-                </Route>
-              </Switch>
+              <Headercomponent/>
+                        <Switch>
+                            <Route path='/' exact>
+                                <Homecomponent />
+                            </Route>
+                            <Route path='/about'>
+                                <Aboutcomponent/>
+                            </Route>
+                            <Route path='/contact'>
+                                <Contactcomponent/>
+                            </Route>
+                        </Switch>
           </div>
       );
   }
