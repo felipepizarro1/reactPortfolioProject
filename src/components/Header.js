@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { 
   Container,
   Nav,
@@ -31,13 +32,13 @@ function Headercomponent () {
                             <div className="collapse navbar-collapse" id="navbarNav">
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                    <a className="nav-link" href="#">Portfolio</a>
+                                    <a className="nav-link" type="button" id="button"><Link className="justlink" to='/'>Portfolio</Link></a>
                                     </li>
                                     <li className="nav-item">
-                                    <a className="nav-link" type="button" id="button">About <span className="sr-only">(current)</span></a>
+                                    <a className="nav-link" type="button" id="button"><Link className="justlink" to='/about'>About</Link> <span className="sr-only">(current)</span></a>
                                     </li>
                                     <li className="nav-item">
-                                    <a className="nav-link" href="#">Contact</a>
+                                    <a className="nav-link" type="button" id="button"><Link className='justlink' to='/contact'>Contact</Link></a>
                                     </li>
                                     <li className="nav-item">
                                     <a className="nav-link" href="resume-it-Felipe.pdf" download>Resume</a>
