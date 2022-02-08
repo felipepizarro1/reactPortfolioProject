@@ -12,21 +12,22 @@ import Contactcomponent from './components/Contact';
 class App extends Component {
 
 
+
   render() {
       return (
-          <div className="App">
+          <div className="App" >
               <Header/>
-                        <Switch>
-                            <Route path='/' exact>
-                                <Homecomponent />
-                            </Route>
-                            <Route path='/about'>
-                                <Aboutcomponent/>
-                            </Route>
-                            <Route path='/contact'>
-                                <Contactcomponent/>
-                            </Route>
-                        </Switch>
+                    <Switch>
+                        <Route path='/' exact>
+                            <Homecomponent />
+                        </Route>
+                        <Route path='/about'>
+                            <Aboutcomponent/>
+                        </Route>
+                        <Route path='/contact'>
+                            <Contactcomponent/>
+                        </Route>
+                    </Switch>
           </div>
       );
   }

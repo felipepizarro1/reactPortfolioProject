@@ -15,17 +15,17 @@ function Homecomponent() {
                                 exitTransform: 'scale(0.9) translateY(60%)'
                             }}>
                             <h1 >Hello There!<h1 className="textstrong">I'm Felipe Pizarro</h1></h1>
-                            <p className="d-none d-sm-block ">Full Stack Development Student at <br></br>Nucamp Coding <em className='textstrong'>Bootcamp</em></p>
+                            <p className="d-sm-block ">Full Stack Development Student at <br></br>Nucamp Coding <em className='textstrong'>Bootcamp</em></p>
                             <a href="mailto:fpizarro.ux@gmail.com"><button type="button"  data-toggle="modal" data-target="#adoptapet" class="btn mt-4  btn-lg btn-outline-light">Contact</button></a>
                         </FadeTransform>
                         </div>
-                        <div class="col-6 mt-2">
+                        <div class="col-sm-6 mt-3">
                         <FadeTransform
                             in
                             transformProps={{
                                 exitTransform: 'scale(0.9) translateY(60%)'
                             }}>
-                            <h1>Current Projects</h1>
+                            <h1>Projects</h1>
                         </FadeTransform>
                         <Stagger in>
                             <Fade in>

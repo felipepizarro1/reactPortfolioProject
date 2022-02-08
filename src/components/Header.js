@@ -38,7 +38,7 @@ class Header extends Component {
 
                         <div className="col mt-5">
                             <div className="ml-5 container d-flex">
-                                <Navbar expand="md">
+                                <Navbar dark expand="md">
                                 <NavbarToggler onClick={this.toggleNav} />
                                     <Collapse isOpen={this.state.isNavOpen} navbar>
                                         <Nav className='ml-5' navbar>
@@ -52,7 +52,7 @@ class Header extends Component {
                                             <a className="nav-link" type="button" id="button"><Link className='justlink' to='/contact'>Contact</Link></a>
                                             </NavItem>
                                             <NavItem>
-                                            <a className="nav-link" href="resume-it-Felipe.pdf" download>Resume</a>
+                                            <a className="nav-link" type="button" id="button" href="resume-it-Felipe.pdf" download ><Link className='justlink' >Resume</Link></a>
                                             </NavItem>
                                         </Nav>
                                     </Collapse>

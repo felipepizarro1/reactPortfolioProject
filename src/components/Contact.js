@@ -15,7 +15,7 @@ function Contactcomponent () {
                             <h1 className="textstrong">Contact</h1>
                             <p className="d-none d-sm-block ">Full Stack Development Student at <br></br>Nucamp Coding <em className='textstrong'>Bootcamp</em></p>
                         </div>
-                        <div class="col-6 mt-2">
+                        <div class="col-sm-6 mt-2">
                             <h1>Contact</h1>
                             <p>Reach out</p> <br></br>
                             
