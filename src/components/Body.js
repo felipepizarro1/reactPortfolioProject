@@ -20,8 +20,14 @@ function Homecomponent() {
                         </FadeTransform>
                         </div>
                         <div class="col-6 mt-2">
-                        <Stagger in>
+                        <FadeTransform
+                            in
+                            transformProps={{
+                                exitTransform: 'scale(0.9) translateY(60%)'
+                            }}>
                             <h1>Current Projects</h1>
+                        </FadeTransform>
+                        <Stagger in>
                             <Fade in>
                             <a href='https://argoswebsite.netlify.app/' target="_blank" style={{ textDecoration: 'none' }}><h3>‣ Argos: Scrolling Animation Project</h3></a>
                             </Fade>
