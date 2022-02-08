@@ -37,11 +37,11 @@ class Header extends Component {
                         </div>
 
                         <div className="col mt-5">
-                            <div className="container d-flex">
+                            <div className="ml-5 container d-flex">
                                 <Navbar expand="md">
                                 <NavbarToggler onClick={this.toggleNav} />
                                     <Collapse isOpen={this.state.isNavOpen} navbar>
-                                        <Nav navbar>
+                                        <Nav className='ml-5' navbar>
                                             <NavItem>
                                             <a className="nav-link" type="button" id="button"><Link className="justlink" to='/'>Portfolio</Link></a>
                                             </NavItem>
