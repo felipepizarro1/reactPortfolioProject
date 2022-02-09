@@ -5,7 +5,7 @@ function Footercomponent () {
         <div className="App">
             <div className='container'>
                 <div className='row'>
-                    <div className='col d-flex'>
+                    <div className='sm-col-12 mr-5'>
                         Design by Felipe Pizarro
                     </div>
                 </div>

@@ -30,7 +30,6 @@ class App extends Component {
                             <Contactcomponent/>
                         </Route>
                     </Switch>
-                <Footercomponent/>
           </div>
       );
   }

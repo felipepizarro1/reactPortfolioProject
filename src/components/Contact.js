@@ -10,16 +10,17 @@ function Contactcomponent () {
                     exitTransform: 'scale(0.5) translateY(-50%)'
                 }}>
                 <div class="container ">
-                    <div class="row m-5" >
-                        <div class="col-sm-6 mt-5" data-aos="fade-right">
-                            <h1 className="textstrong">Contact</h1>
-                            <p className="d-none d-sm-block ">Full Stack Development Student at <br></br>Nucamp Coding <em className='textstrong'>Bootcamp</em></p>
+                    <div class="row m-5 " >
+                        <div class="col-sm-12  mt-2" >
+                            <h1 className="textstrong mb-4 d-flex justify-content-center">Contact</h1>
+                            <p className="d-flex justify-content-center ">I'm available for work. Contact me at fpizarro.ux@gmail.com</p>
                         </div>
-                        <div class="col-sm-6 mt-2">
-                            <h1>Contact</h1>
-                            <p>Reach out</p> <br></br>
-                            
+                    </div>
+                    <div className='row'>
+                        <div className='col m-5'> 
+                        <p className="d-none d-sm-block ">Full Stack Development Student at <br></br>Nucamp Coding <em className='textstrong'>Bootcamp</em></p>
                         </div>
+
                     </div>
                 </div>
             </FadeTransform>
