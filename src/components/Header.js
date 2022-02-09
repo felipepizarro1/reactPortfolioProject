@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Input, Label } from 'reactstrap';
 
+
 class Header extends Component {
 
     constructor(props) {
@@ -20,6 +21,7 @@ class Header extends Component {
         this.setState({
             isNavOpen: !this.state.isNavOpen
         });
+
     }
 
 
@@ -43,16 +45,16 @@ class Header extends Component {
                                     <Collapse isOpen={this.state.isNavOpen} navbar>
                                         <Nav className='ml-5' navbar>
                                             <NavItem>
-                                            <a className="nav-link" type="button" id="button"><Link className="justlink" to='/'>Portfolio</Link></a>
+                                            <a className="nav-link" type="button" id="button"><NavLink exact activeClassName="active" className="justlink"  to='/' >Portfolio</NavLink></a>
                                             </NavItem>
                                             <NavItem>
-                                            <a className="nav-link" type="button" id="button"><Link className="justlink" to='/about'>About</Link> <span className="sr-only">(current)</span></a>
+                                            <a className="nav-link" type="button" id="button"><NavLink activeClassName="active" className="justlink" to='/about'>About</NavLink> <span className="sr-only">(current)</span></a>
                                             </NavItem>
                                             <NavItem>
-                                            <a className="nav-link" type="button" id="button"><Link className='justlink' to='/contact'>Contact</Link></a>
+                                            <a className="nav-link" type="button" id="button"><NavLink activeClassName="active" className='justlink' to='/contact'>Contact</NavLink></a>
                                             </NavItem>
                                             <NavItem>
-                                            <a className="nav-link" type="button" id="button" href="resume-it-Felipe.pdf" download ><Link className='justlink' >Resume</Link></a>
+                                            <a className="nav-link justlink" type="button" id="button"><Link className='justlink' to="../src/resume-it-Felipe.pdf" target="_blank" download>Resume</Link></a>
                                             </NavItem>
                                         </Nav>
                                     </Collapse>

@@ -42,9 +42,7 @@ span.navbar-toggler-icon {
     color: white;
 }
 
-.nav-link.active {
-    color: red;
-}
+
 
 
 a h3:hover {
@@ -74,6 +72,7 @@ a.justlink {
    text-decoration: none;
 }
 
+
 a.justlink:hover {
     color: turquoise;
     text-decoration: none;
@@ -82,4 +81,10 @@ a.justlink:hover {
 .supersmall {
     font-size: 60%;
     font-weight: 200;
+}
+
+a.active{
+    color: turquoise;
+    font-weight: 500;
+
 }
