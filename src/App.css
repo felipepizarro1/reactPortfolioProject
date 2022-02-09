@@ -12,6 +12,7 @@ body {
     
     background-size: cover;
     padding-bottom: 205px;
+    background-attachment: fixed;
  
 }
 
@@ -41,6 +42,9 @@ span.navbar-toggler-icon {
     color: white;
 }
 
+.nav-link.active {
+    color: red;
+}
 
 
 a h3:hover {
@@ -75,3 +79,7 @@ a.justlink:hover {
     text-decoration: none;
 }
 
+.supersmall {
+    font-size: 60%;
+    font-weight: 200;
+}
