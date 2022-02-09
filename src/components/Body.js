@@ -25,7 +25,7 @@ function Homecomponent() {
                             transformProps={{
                                 exitTransform: 'scale(0.9) translateY(60%)'
                             }}>
-                            <h1>Projects</h1>
+                            <h1 className="textstrong">Projects</h1>
                         </FadeTransform>
                         <Stagger in>
                             <Fade in>
