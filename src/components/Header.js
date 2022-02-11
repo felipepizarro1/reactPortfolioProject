@@ -54,7 +54,7 @@ class Header extends Component {
                                             <a className="nav-link" type="button" id="button"><NavLink activeClassName="active" className='justlink' to='/contact'>Contact</NavLink></a>
                                             </NavItem>
                                             <NavItem>
-                                            <a className="nav-link justlink" type="button" id="button"><Link className='justlink' to="../src/resume-it-Felipe.pdf" target="_blank" download>Resume</Link></a>
+                                            <a className="nav-link justlink" type="button" id="button"><Link className='justlink' to="/../resume-it-Felipe.pdf" target="_blank" download>Resume</Link></a>
                                             </NavItem>
                                         </Nav>
                                     </Collapse>
