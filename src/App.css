@@ -42,7 +42,16 @@ span.navbar-toggler-icon {
     color: white;
 }
 
+a {
+    color: turquoise;
+    text-decoration: none;
+}
 
+a:hover {
+    color: turquoise;
+    text-decoration: none;
+
+}
 
 
 a h3:hover {
