@@ -18,7 +18,7 @@ function Aboutcomponent () {
                     </div>
                     <div className="row m-5" >
                         <div class="col-sm-12" data-aos="fade-right">
-                            <p className="d-none d-sm-block ">I have 2 years of experience in creating digital content. I worked as an intern and later as a Video Editor at the ALMA Observatory, disseminating scientific knowledge in an audiovisual format. I also worked in a private organization  called CCDO, where I created E-learning courses to train both workers and entrepreneurs of different backgrounds .<em className='textstrong'>Bootcamp</em></p>
+                            <p className="d-sm-block ">I have 2 years of experience in creating digital content. I worked as an intern and later as a Video Editor at the ALMA Observatory, disseminating scientific knowledge in an audiovisual format. I also worked in a private organization  called CCDO, where I created E-learning courses to train both workers and entrepreneurs of different backgrounds .<em className='textstrong'>Bootcamp</em></p>
                         </div>
                     </div>
                 </div>

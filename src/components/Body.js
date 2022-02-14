@@ -8,7 +8,7 @@ function Homecomponent() {
                 <div class="container ">
                     <div class="row m-5" >
                         
-                        <div class="col-sm-6 mt-5" data-aos="fade-right">
+                        <div class="col-sm-6 mt-5">
                         <FadeTransform
                             in
                             transformProps={{
