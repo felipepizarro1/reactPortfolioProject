@@ -6,6 +6,7 @@ import Homecomponent from './components/Body';
 import Aboutcomponent from './components/About';
 import Contactcomponent from './components/Contact';
 import Footercomponent from './components/Footer';
+import Project1 from './components/Project1';
 import './App.css';
 
 
@@ -23,6 +24,10 @@ class App extends Component {
                         <Route path='/' exact>
                             <Homecomponent />
                         </Route>
+                        <Route path='/Project1'>
+                            <Project1 />
+                        </Route>
+                        
                         <Route path='/about'>
                             <Aboutcomponent/>
                         </Route>
