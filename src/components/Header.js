@@ -15,6 +15,7 @@ class Header extends Component {
           isModalOpen: false
         };
         this.toggleNav = this.toggleNav.bind(this);
+        this.toggleModal = this.toggleModal.bind(this);
     }
 
     toggleNav() {
@@ -22,6 +23,12 @@ class Header extends Component {
             isNavOpen: !this.state.isNavOpen
         });
 
+    }
+
+    toggleModal() {
+        this.setState({
+            isModalOpen: !this.state.isModalOpen
+        });
     }
 
 
