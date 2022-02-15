@@ -98,3 +98,11 @@ a.active{
 
 
 }
+
+.modalfooterheader {
+    background-color: gray;
+}
+
+.modalfooterbody {
+    background-color: black;
+}

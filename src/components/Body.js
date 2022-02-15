@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { FadeTransform, Fade, Stagger } from 'react-animation-components';
-import { Collapse, CardBody, Card, CardHeader} from 'reactstrap';
+
 
 
 class Homecomponent extends Component {
+
+
 
     render() {
     return (
@@ -27,6 +29,7 @@ class Homecomponent extends Component {
                               <h1 className="textstrong">Projects</h1>  
                             </Fade>
                             <Fade in>
+                            
                             <a href='https://argoswebsite.netlify.app/' target="_blank" style={{ textDecoration: 'none' }}><h3>‣ Argos: Scrolling Animation Project</h3></a>
                             <Fade in>
                             <a href='https://github.com/felipepizarro1/reactPortfolioProject' target="_blank" style={{ textDecoration: 'none' }}><h3>‣ Portfolio with React: GitHub Code</h3></a>
