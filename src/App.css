@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Spartan';
     font-size: 102%;
     color: white;
     text-decoration: none;
@@ -62,10 +64,12 @@ a h3:hover {
 
 .textstrong {
     color:turquoise;
+    font-weight: 600;
 }
 
 em {
     font-style: normal;
+    font-weight: 500;
 }
 
 i:hover {
@@ -77,8 +81,10 @@ button:hover {
 }
 
 a.justlink {
-    color: white;
+   color: white;
    text-decoration: none;
+   font-weight: 500;
+
 }
 
 
@@ -94,7 +100,7 @@ a.justlink:hover {
 
 a.active{
     color: turquoise;
-    font-weight: 550;
+    font-weight: 500;
 
 
 }
@@ -105,4 +111,19 @@ a.active{
 
 .modalfooterbody {
     background-color: black;
+}
+
+
+h3.projectstitles {
+    font-size: 120%;
+    font-weight: 500;
+
+}
+
+p {
+    font-size: 90%;
+}
+
+.calypsoonly {
+    color: turquoise;
 }
