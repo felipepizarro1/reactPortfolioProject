@@ -84,6 +84,7 @@ a.justlink {
    color: white;
    text-decoration: none;
    font-weight: 500;
+   font-size: 100%;
 
 }
 
@@ -106,7 +107,7 @@ a.active{
 }
 
 .modalfooterheader {
-    background-color: gray;
+    background-color:cadetblue;
 }
 
 .modalfooterbody {
@@ -126,4 +127,9 @@ p {
 
 .calypsoonly {
     color: turquoise;
+    
+}
+
+.littlefat {
+    font-weight: 550;
 }

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Input, Label } from 'reactstrap';
 
+var resume = require('../resume-it-Felipe.pdf');
 
 class Header extends Component {
 
@@ -61,7 +62,7 @@ class Header extends Component {
                                             <a className="nav-link" type="button" id="button"><NavLink activeClassName="active" className='justlink' to='/contact'>Contact</NavLink></a>
                                             </NavItem>
                                             <NavItem>
-                                            <a className="nav-link justlink" type="button" id="button"><Link className='justlink' to="/../resume-it-Felipe.pdf" target="_blank" download>Resume</Link></a>
+                                            <a className="nav-link justlink" type="button" id="button"><Link className='justlink' to={resume} target="_blank" download>Resume</Link></a>
                                             </NavItem>
                                         </Nav>
                                     </Collapse>

@@ -4,11 +4,12 @@ import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 
+var imgfelipe = require('../FELIPE-IMAGE2.png');
 
 
 class Homecomponent extends Component {
 
-
+    
 
     render() {
     return (
@@ -21,12 +22,12 @@ class Homecomponent extends Component {
                             transformProps={{
                                 exitTransform: 'scale(0.9) translateY(60%)'
                             }}>
-                            <h1 >Hello There! <h1 className='calypsoonly'>I'm Felipe Pizarro</h1></h1>
+                            <h1 className="littlefat" >Hello There! <h1 className='calypsoonly'>I'm Felipe Pizarro</h1></h1>
                             <p className="d-sm-block ">Full Stack Development Student at <br></br>Nucamp Coding <em className='textstrong'>Bootcamp</em></p>
                             <a href="mailto:fpizarro.ux@gmail.com"><button type="button"  data-toggle="modal" data-target="#adoptapet" className="btn mt-2  btn-lg btn-outline-light">Contact</button></a>
                         </FadeTransform>
                         </div>
-                        <div class="col-sm-6 col-12 mt-4">
+                        <div class="col-sm-6 col-12 mt-2">
                         <Stagger in>
                             <Fade in>                                    
                               <h1 className="textstrong">Projects</h1>  
@@ -37,7 +38,10 @@ class Homecomponent extends Component {
                             <Fade in>
                             <a href='https://github.com/felipepizarro1/reactPortfolioProject' target="_blank" style={{ textDecoration: 'none' }}><h3 className='projectstitles mt-3'>‣ Portfolio with React: GitHub Code</h3></a>
                             </Fade>
-                            <a href='https://argoswebsite.netlify.app/' target="_blank" style={{ textDecoration: 'none' }}><h3 className='projectstitles mt-3'>‣ Pets Website: Scrolling FX</h3></a>
+                            <a href='https://argoswebsite.netlify.app/' target="_blank" style={{ textDecoration: 'none' }}><h3 className='projectstitles mt-3 mb-4'>‣ Pets Website: Scrolling FX</h3></a>
+                            </Fade>
+                            <Fade className='d-flex justify-content-center'>
+                            <img  width={150} src={imgfelipe} />
                             </Fade>
                         </Stagger>
                         </div>
