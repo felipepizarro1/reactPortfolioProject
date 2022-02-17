@@ -100,14 +100,14 @@ a.justlink:hover {
 }
 
 a.active{
-    color: turquoise;
+    color: #40e0d0;
     font-weight: 500;
 
 
 }
 
 .modalfooterheader {
-    background-color:cadetblue;
+    background-color:#40e0d0;
 }
 
 .modalfooterbody {

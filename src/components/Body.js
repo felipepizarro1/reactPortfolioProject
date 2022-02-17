@@ -3,7 +3,7 @@ import { FadeTransform, Fade, Stagger, } from 'react-animation-components';
 import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-var imgfelipe = require('../FELIPE-IMAGE2.png');
+var imgnotebook = require('../NOTEBOOK-1.png');
 
 
 class Homecomponent extends Component {
@@ -37,11 +37,8 @@ class Homecomponent extends Component {
                             <Fade in>
                             <a href='https://github.com/felipepizarro1/reactPortfolioProject' target="_blank" style={{ textDecoration: 'none' }}><h3 className='projectstitles mt-3'>‣ Portfolio with React: GitHub Code</h3></a>
                             </Fade>
-                            <Fade in>
-                            <a href='https://argoswebsite.netlify.app/' target="_blank" style={{ textDecoration: 'none' }}><h3 className='projectstitles mt-3 mb-4'>‣ Pets Website: Scrolling FX</h3></a>
-                            </Fade>
-                            <Fade in className='d-flex justify-content-center mb-1'>
-                            <img  width={150} src={imgfelipe} />
+                            <Fade in className='d-flex justify-content-center mt-5'>
+                            <img  width={250} src={imgnotebook} />
                             </Fade>
                         </Stagger>
                         </div>

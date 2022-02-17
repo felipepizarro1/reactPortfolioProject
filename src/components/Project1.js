@@ -10,21 +10,22 @@ class Project1 extends Component {
     render() {
     return (
         <div className="App">
-            <FadeTransform
-                in
-                transformProps={{
-                    exitTransform: 'scale(0.5) translateY(-50%)'
-                }}>
             <div class="container ">
                 <div class="row  ml-5 mt-3">
                     <Link className=" btn btn-social-icon " to='/' ><i className="fa fa-arrow-left" /></Link>{' '}
                 </div>
                 <div class="row m-5" >
                     <div class="col-12 col-sm-5 mt-1" >
-                        <h1 >Project1<h1 className="textstrong">Argos Website</h1></h1>
-                        <p className="d-sm-block ">Full Stack Development Student at <br></br>Nucamp Coding <em className='textstrong'>Bootcamp</em></p>
+                    <FadeTransform
+                    in
+                    transformProps={{
+                        exitTransform: 'scale(0.9) translateY(60%)'
+                    }}>
+                        <h1 >Argos Website<h1 className="textstrong"></h1></h1>
+                        <p className="d-sm-block ">Website with Scrolling FX <br></br>Nucamp Coding <em className='textstrong'>Bootcamp</em></p>
                         <a href="mailto:fpizarro.ux@gmail.com"><button type="button"  data-toggle="modal" data-target="#adoptapet" class="btn mt-4 mr-2 btn-lg btn-outline-light">View Live</button></a>
                         <a href="https://github.com/felipepizarro1/argos-website" target="_blank"><button type="button"  data-toggle="modal" data-target="#adoptapet" class="btn mt-4  btn-lg btn-outline-light">View Code</button></a>
+                    </FadeTransform>
                     </div>
                     <div class="col-sm-7 col-12">
 
@@ -34,7 +35,6 @@ class Project1 extends Component {
                     </div>
                 </div>
             </div>
-            </FadeTransform>
         </div>
         ); 
     }
