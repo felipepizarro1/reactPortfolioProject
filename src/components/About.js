@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { FadeTransform } from 'react-animation-components';
 
 
-var imgfelipe = require('../FELIPE-IMAGE2.png');
+var imgfelipe = require('../FELIPE-IMAGE3.png');
 
 function Aboutcomponent () {
     return(
@@ -20,7 +20,7 @@ function Aboutcomponent () {
                             
                         </div>
                         <div className="col-sm-2 mt-2">
-                             <img  width={150} src={imgfelipe} />
+                             <img  width={200} src={imgfelipe} />
                         </div>
                     </div>
                     <div className="row m-5" >

@@ -32,14 +32,15 @@ class Homecomponent extends Component {
                               <h1 className="textstrong">Projects</h1>  
                             </Fade>
                             <Fade in>
-                            
-                            <Link to='/Project1' style={{ textDecoration: 'none' }}><h3 className='projectstitles mt-3'>‣ Argos: Scrolling Animation Project</h3></Link>
+                            <Link to='/Project1' style={{ textDecoration: 'none' }}><h3 className='projectstitles mt-3'>‣ Pets Website: Scrolling FX</h3></Link>
+                            </Fade>
                             <Fade in>
                             <a href='https://github.com/felipepizarro1/reactPortfolioProject' target="_blank" style={{ textDecoration: 'none' }}><h3 className='projectstitles mt-3'>‣ Portfolio with React: GitHub Code</h3></a>
                             </Fade>
+                            <Fade in>
                             <a href='https://argoswebsite.netlify.app/' target="_blank" style={{ textDecoration: 'none' }}><h3 className='projectstitles mt-3 mb-4'>‣ Pets Website: Scrolling FX</h3></a>
                             </Fade>
-                            <Fade className='d-flex justify-content-center mb-1'>
+                            <Fade in className='d-flex justify-content-center mb-1'>
                             <img  width={150} src={imgfelipe} />
                             </Fade>
                         </Stagger>
