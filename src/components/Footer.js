@@ -22,7 +22,7 @@ class Footercomponent extends Component {
             <div className='container d-flex justify-content-end fixed-bottom'>
                 <div className='row'>
                     <div className='sm-col-12 mr-5 '>
-                    <Button outline onClick={this.toggleModal}>
+                    <Button outline color='transparent' size="sm" onClick={this.toggleModal}>
                         <h3 className='supersmall'>Design by Felipe Pizarro 2022</h3>
                     </Button>
                     </div>
