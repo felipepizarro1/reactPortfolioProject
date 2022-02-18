@@ -29,9 +29,9 @@ class Footercomponent extends Component {
                 </div>
             </div>
             <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-                <ModalHeader className="modalfooterheader" toggle={this.toggleModal}>React Portfolio</ModalHeader>
+                <ModalHeader className="modalfooterheader" toggle={this.toggleModal}>Felipe Pizarro 2022</ModalHeader>
                 <ModalBody className="modalfooterbody">
-                    <p>Hello I'm Felipondrious</p>
+                    <p>Hi! I'm developing new projects on React to soon showcase in my portfolio. </p>
                 </ModalBody>
              </Modal>
         </div>

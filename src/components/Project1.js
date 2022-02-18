@@ -19,8 +19,8 @@ class Project1 extends Component {
                 <div class="row  ml-5 mt-3">
                     <Link className=" btn btn-social-icon " to='/' ><i className="fa fa-arrow-left" /></Link>{' '}
                 </div>
-                <div class="row m-5" >
-                    <div class="col-12 col-sm-5 mt-1" >
+                <div class="row ml-5 mr-5 mt-5 mb-5" >
+                    <div class="col-12 col-md-5 mt-1 mb-4" >
                     
                         <h1 >Argos Website<h1 className="textstrong">What</h1></h1>
                         <p className="d-sm-block ">Website with Scrolling FX <br></br>Nucamp Coding <em className='textstrong'>Bootcamp</em></p>
@@ -28,7 +28,7 @@ class Project1 extends Component {
                         <a href="https://github.com/felipepizarro1/argos-website" target="_blank"><button type="button"  data-toggle="modal" data-target="#adoptapet" class="btn mt-4  btn-lg btn-outline-light">View Code</button></a>
                     
                     </div>
-                    <div class="col-sm-7 col-12">
+                    <div class="col-md-7 col-12 ">
                     <Stagger in>
                             <Fade in>   
 
@@ -38,7 +38,7 @@ class Project1 extends Component {
 
                             <p>I have 2 years of experience in creating digital content. I worked as an intern and later as a Video Editor at the ALMA Observatory, disseminating scientific knowledge in an audiovisual format. I also worked in a private organization  called CCDO, where I created E-learning courses to train both workers and entrepreneurs of different backgrounds .</p>
                             </Fade>
-                        </Stagger>
+                    </Stagger>
                     </div>
                 </div>
             </div>
