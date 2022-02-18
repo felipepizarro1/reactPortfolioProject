@@ -35,7 +35,7 @@ function Aboutcomponent () {
                             <p className="d-sm-block ">My goal is to work remotely with an English, Italian or Spanish speaking team. I would love to find a position as a React developer with opportunities for growth and learning. I will return the trust with hard work. I'm  also a firm believer that <em className='textstrong'>practice makes perfect.</em></p>
                         </div>
                     </div>
-                    <div className="row mt-3 mr-5 ml-1 mb-2" >
+                    <div className="row mt-4 mr-5 ml-1 mb-2" >
                         <div class="col-md-12 d-flex justify-content-center">
                             <a href="https://www.linkedin.com/in/felipepizarrodev"><button type="button" className="btn mt-2 mb-3   btn-lg btn-outline-light">LinkedIn Profile</button></a>
                             <a href="mailto:fpizarro.ux@gmail.com"><button type="button"  className="btn mt-2 mb-3 ml-3  btn-lg btn-outline-light">Contact</button></a>
