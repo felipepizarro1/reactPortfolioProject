@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FadeTransform } from 'react-animation-components';
+import { FadeTransform, Fade, Stagger, } from 'react-animation-components';
 
 
 var imgfelipe = require('../FELIPE-IMAGE3.png');
@@ -10,16 +10,16 @@ function Aboutcomponent () {
             <FadeTransform
             in
             transformProps={{
-                exitTransform: 'scale(0.9) translateY(60%)'
+                exitTransform: 'scale(0.9) translateY(15%)'
             }}>
                 <div class="container ">
                     <div className="row mt-5 mr-5 ml-5 mb-2" >
-                        <div className="col-sm-10 mt-2">
+                        <div className="col-sm-9 mt-2">
                             <h1 className="textstrong mb-4"> About Me</h1>
                             <p className='d-sm-block '>Hi, I'm Felipe, a graduate of Full Stack Development from Nucamp Coding Bootcamp based in Milan, Italy. In 2020, I graduated in communication sciences in Chile, at the UNIACC University and worked as a journalist for a year and a half doing scientific dissemination at the ALMA Observatory and as a video editor at private E-learning agencies.</p>  
                             
                         </div>
-                        <div className="col-sm-2 mt-2">
+                        <div className="col-sm-3 mt-2 ">
                              <img  width={200} src={imgfelipe} />
                         </div>
                     </div>

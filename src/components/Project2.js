@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 
-class Project1 extends Component {
+class Project2 extends Component {
 
 
     render() {
@@ -22,7 +22,7 @@ class Project1 extends Component {
                 <div class="row m-5" >
                     <div class="col-12 col-sm-5 mt-1" >
                     
-                        <h1 >Argos Website<h1 className="textstrong">What</h1></h1>
+                        <h1 >My Website<h1 className="textstrong">What</h1></h1>
                         <p className="d-sm-block ">Website with Scrolling FX <br></br>Nucamp Coding <em className='textstrong'>Bootcamp</em></p>
                         <a href="https://argoswebsite.netlify.app/" target="_blank"><button type="button"  data-toggle="modal" data-target="#adoptapet" class="btn mt-4 mr-2 btn-lg btn-outline-light">View Live</button></a>
                         <a href="https://github.com/felipepizarro1/argos-website" target="_blank"><button type="button"  data-toggle="modal" data-target="#adoptapet" class="btn mt-4  btn-lg btn-outline-light">View Code</button></a>
@@ -48,4 +48,4 @@ class Project1 extends Component {
     }
 }
 
-export default Project1;
+export default Project2;

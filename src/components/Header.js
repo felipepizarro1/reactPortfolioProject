@@ -40,14 +40,14 @@ class Header extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col mt-5 ml-5 col-sm-5 ">
-                            <div className='container mt-3 d-flex'>
+                            <div className='container mt-2 d-flex'>
                                 <a className="btn btn-social-icon " href="https://github.com/felipepizarro1" target="_blank"><i className="fa fa-github" /></a>{' '}
                                 <a className="btn btn-social-icon ml-1" href="https://www.linkedin.com/in/felipepizarrodev" target="_blank"><i className="fa fa-linkedin" /></a>{' '}
                             </div>
                         </div>
 
-                        <div className="col mt-5">
-                            <div className="ml-5 container d-flex">
+                        <div className="col ml-5 mt-5">
+                            <div className=" ml-4 container d-flex">
                                 <Navbar dark expand="md">
                                 <NavbarToggler onClick={this.toggleNav} />
                                     <Collapse isOpen={this.state.isNavOpen} navbar>
@@ -62,7 +62,7 @@ class Header extends Component {
                                             <a className="nav-link" type="button" id="button"><NavLink activeClassName="active" className='justlink' to='/contact'>Contact</NavLink></a>
                                             </NavItem>
                                             <NavItem>
-                                            <a className="nav-link justlink" type="button" id="button"><Link className='justlink' to={resume} target="_blank" download>Resume</Link></a>
+                                            <a className="nav-link" type="button" id="button"><Link className='justlink' to={resume} target="_blank" download>Resume</Link></a>
                                             </NavItem>
                                         </Nav>
                                     </Collapse>
