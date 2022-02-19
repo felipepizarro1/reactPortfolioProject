@@ -67,6 +67,11 @@ a h3:hover {
     font-weight: 600;
 }
 
+.textstrong2 {
+    color:turquoise;
+    font-weight: 500;
+}
+
 em {
     font-style: normal;
     font-weight: 500;
