@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Input, Label } from 'reactstrap';
 
-var resume = require('../resume-it-Felipe.pdf');
+var resume = require('../Felipe-Pizarro-Resume-2022.pdf');
 
 class Header extends Component {
 
@@ -48,7 +48,7 @@ class Header extends Component {
 
                         <div className="col ml-5 mt-5">
                             <div className=" ml-4 container d-flex">
-                                <Navbar dark expand="md">
+                                <Navbar dark expand="lg">
                                 <NavbarToggler onClick={this.toggleNav} />
                                     <Collapse isOpen={this.state.isNavOpen} navbar>
                                         <Nav className='ml-5' navbar>

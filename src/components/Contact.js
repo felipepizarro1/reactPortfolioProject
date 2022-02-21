@@ -11,22 +11,7 @@ function Contactcomponent () {
                 }}>
                 <div className="container ">
                     <div className="row m-5 " >
-                        <div class="col-sm-4  mt-4" >
-                            <h1 className="textstrong mb-3 d-flex justify-content-center">Contact</h1>
-                            <p className="d-flex justify-content-center mb-1">I'm available for work! Contact me at </p><a href="mailto:fpizarro.ux@gmail.com" className="textstrong d-flex justify-content-center mb-1">fpizarro.ux@gmail.com</a>
-                            <p className="d-flex justify-content-center mt-2 mb-1">See my code on&nbsp;<a className="textstrong" href="https://github.com/felipepizarro1" target="_blank">  GitHub</a></p>
-                            <p className="d-flex justify-content-center ">Let's connect on&nbsp; <a className="textstrong" href="https://www.linkedin.com/in/felipepizarrodev" target="_blank">LinkedIn</a></p>
-                        </div>
-                        <div class="col-sm-4  mt-4" >
-                        <h1 className="textstrong mb-3 d-flex justify-content-center">Contact</h1>
-                            <div className="d-flex justify-content-center">
-                             <p className=" mb-1">I'm available for work! Contact me at </p><a href="mailto:fpizarro.ux@gmail.com" className="textstrong2 ">fpizarro.ux@gmail.com</a>
-                            </div>
-                            <p className="d-flex justify-content-center mt-2 mb-1">See my code on&nbsp;<a className="textstrong" href="https://github.com/felipepizarro1" target="_blank">  GitHub</a></p>
-                            <p className="d-flex justify-content-center ">Let's connect on&nbsp; <a className="textstrong" href="https://www.linkedin.com/in/felipepizarrodev" target="_blank">LinkedIn</a></p>
-
-                        </div>
-                        <div class="col-sm-4  mt-4" >
+                        <div class="col-sm-12  mt-4" >
                             <h1 className="textstrong mb-3 d-flex justify-content-center">Contact</h1>
                             <p className="d-flex justify-content-center mb-1">I'm available for work! Contact me at </p><a href="mailto:fpizarro.ux@gmail.com" className="textstrong d-flex justify-content-center mb-1">fpizarro.ux@gmail.com</a>
                             <p className="d-flex justify-content-center mt-2 mb-1">See my code on&nbsp;<a className="textstrong" href="https://github.com/felipepizarro1" target="_blank">  GitHub</a></p>
