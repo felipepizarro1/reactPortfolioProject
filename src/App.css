@@ -3,14 +3,14 @@
 * {
     font-family: 'Spartan';
     font-size: 102%;
-    color: white;
+    color: black;
     text-decoration: none;
     
 }
 
 body {
 
-    background-image: linear-gradient(12deg, rgba(193, 193, 193,0.05) 0%, rgba(193, 193, 193,0.05) 2%,rgba(129, 129, 129,0.05) 2%, rgba(129, 129, 129,0.05) 27%,rgba(185, 185, 185,0.05) 27%, rgba(185, 185, 185,0.05) 66%,rgba(83, 83, 83,0.05) 66%, rgba(83, 83, 83,0.05) 100%),linear-gradient(321deg, rgba(240, 240, 240,0.05) 0%, rgba(240, 240, 240,0.05) 13%,rgba(231, 231, 231,0.05) 13%, rgba(231, 231, 231,0.05) 34%,rgba(139, 139, 139,0.05) 34%, rgba(139, 139, 139,0.05) 71%,rgba(112, 112, 112,0.05) 71%, rgba(112, 112, 112,0.05) 100%),linear-gradient(236deg, rgba(189, 189, 189,0.05) 0%, rgba(189, 189, 189,0.05) 47%,rgba(138, 138, 138,0.05) 47%, rgba(138, 138, 138,0.05) 58%,rgba(108, 108, 108,0.05) 58%, rgba(108, 108, 108,0.05) 85%,rgba(143, 143, 143,0.05) 85%, rgba(143, 143, 143,0.05) 100%),linear-gradient(96deg, rgba(53, 53, 53,0.05) 0%, rgba(53, 53, 53,0.05) 53%,rgba(44, 44, 44,0.05) 53%, rgba(44, 44, 44,0.05) 82%,rgba(77, 77, 77,0.05) 82%, rgba(77, 77, 77,0.05) 98%,rgba(8, 8, 8,0.05) 98%, rgba(8, 8, 8,0.05) 100%),linear-gradient(334deg, hsl(247,0%,2%),hsl(247,0%,2%)); 
+    background-image: radial-gradient(circle at 34% 75%, rgba(142, 142, 142,0.06) 0%, rgba(142, 142, 142,0.06) 50%,rgba(11, 11, 11,0.06) 50%, rgba(11, 11, 11,0.06) 100%),radial-gradient(circle at 40% 51%, rgba(12, 12, 12,0.06) 0%, rgba(12, 12, 12,0.06) 50%,rgba(242, 242, 242,0.06) 50%, rgba(242, 242, 242,0.06) 100%),radial-gradient(circle at 50% 87%, rgba(189, 189, 189,0.06) 0%, rgba(189, 189, 189,0.06) 50%,rgba(0, 0, 0,0.06) 50%, rgba(0, 0, 0,0.06) 100%),linear-gradient(90deg, hsl(35,0%,96%),hsl(35,0%,96%));
     
     background-size: cover;
     padding-bottom: 205px;
@@ -19,7 +19,7 @@ body {
 }
 
 a.nav-link {
-    color: white;
+    color: black;
     
 }
 
@@ -86,7 +86,7 @@ button:hover {
 }
 
 a.justlink {
-   color: white;
+   color: black;
    text-decoration: none;
    font-weight: 500;
    font-size: 80%;

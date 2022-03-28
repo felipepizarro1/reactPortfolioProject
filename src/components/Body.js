@@ -23,7 +23,7 @@ class Homecomponent extends Component {
                             }}>
                             <h1 className="littlefat" >Hello There! <h1 className='littlefat calypsoonly'>I'm Felipe Pizarro</h1></h1>
                             <p className="d-sm-block ">Entry level <em className='textstrong'>Front End Developer</em> <br></br>from Nucamp Coding Bootcamp</p>
-                            <a href="mailto:fpizarro.ux@gmail.com"><button type="button"  data-toggle="modal" data-target="#adoptapet" className="btn mt-2 mb-3  btn-lg btn-outline-light">Contact</button></a>
+                            <a href="mailto:fpizarro.ux@gmail.com"><button type="button"  data-toggle="modal" data-target="#adoptapet" className="btn mt-2 mb-3  btn-lg btn-dark">Contact</button></a>
                         </FadeTransform>
                         </div>
                         <div class="col-lg-6 col-12 mt-2">
