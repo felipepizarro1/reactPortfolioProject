@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
 
 * {
-    font-family: 'Spartan';
+    font-family: 'Sofia Pro', sans-serif;
     font-size: 102%;
     color: black;
     text-decoration: none;
