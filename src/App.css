@@ -64,7 +64,7 @@ a h3:hover {
 
 .textstrong {
     color:turquoise;
-    font-weight: 600;
+    font-weight: 750;
 }
 
 .textstrong2 {
@@ -88,7 +88,7 @@ button:hover {
 a.justlink {
    color: black;
    text-decoration: none;
-   font-weight: 500;
+   font-weight: 650;
    font-size: 80%;
 
 }
@@ -106,7 +106,7 @@ a.justlink:hover {
 
 a.active{
     color: #40e0d0;
-    font-weight: 900;
+
     text-shadow: 0px 3px 15px rgba(0,0,0,0,1);
     
 
@@ -124,12 +124,14 @@ a.active{
 
 h3.projectstitles {
     font-size: 120%;
-    font-weight: 500;
+    font-weight: 600;
+    
 
 }
 
 p {
-    font-size: 90%;
+    font-size: 92%;
+    font-weight: 500;
 }
 
 .calypsoonly {
@@ -138,5 +140,6 @@ p {
 }
 
 .littlefat {
-    font-weight: 550;
+    font-weight: 750;
+    
 }
