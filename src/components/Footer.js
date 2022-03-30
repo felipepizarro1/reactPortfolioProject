@@ -37,9 +37,9 @@ class Footercomponent extends Component {
                         <p>Hi! I'm developing new <em className='textstrong'>React projects </em>to soon showcase them in my portfolio. Thanks for reading!</p>
                         </div>
                         <div class="col-md-12 d-flex justify-content-center">
-                            <a href="https://www.linkedin.com/in/felipepizarrodev"><button type="button" className="btn mt-2 mb-3   btn-md btn-outline-light">LinkedIn Profile</button></a>
-                            <a href="mailto:fpizarro.ux@gmail.com"><button type="button"  className="btn mt-2 mb-3 ml-3  btn-md btn-outline-light">Contact</button></a>
-                            <a href="https://github.com/felipepizarro1"><button type="button" className="btn mt-2 mb-3 ml-3  btn-md btn-outline-light">GitHub Profile</button></a>
+                            <a href="https://www.linkedin.com/in/felipepizarrodev"><button type="button" className="btn mt-2 mb-3   btn-md btn-dark">LinkedIn Profile</button></a>
+                            <a href="mailto:fpizarro.ux@gmail.com"><button type="button"  className="btn mt-2 mb-3 ml-3  btn-md btn-dark">Contact</button></a>
+                            <a href="https://github.com/felipepizarro1"><button type="button" className="btn mt-2 mb-3 ml-3  btn-md btn-dark">GitHub Profile</button></a>
                             
                         </div>
                     </div>

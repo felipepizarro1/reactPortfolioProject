@@ -45,9 +45,9 @@ function Aboutcomponent () {
                     </div>
                     <div className="row mt-4 mr-5 ml-1 mb-2" >
                         <div class="col-md-12 d-flex justify-content-center">
-                            <a href="https://www.linkedin.com/in/felipepizarrodev"><button type="button" className="btn mt-2 mb-3   btn-lg btn-outline-light">LinkedIn Profile</button></a>
-                            <a href="mailto:fpizarro.ux@gmail.com"><button type="button"  className="btn mt-2 mb-3 ml-3  btn-lg btn-outline-light">Contact</button></a>
-                            <a href="https://github.com/felipepizarro1"><button type="button" className="btn mt-2 mb-3 ml-3  btn-lg btn-outline-light">GitHub Profile</button></a>
+                            <a href="https://www.linkedin.com/in/felipepizarrodev"><button type="button" className="btn mt-2 mb-3   btn-lg btn-dark">LinkedIn Profile</button></a>
+                            <a href="mailto:fpizarro.ux@gmail.com"><button type="button"  className="btn mt-2 mb-3 ml-3  btn-lg btn-dark">Contact</button></a>
+                            <a href="https://github.com/felipepizarro1"><button type="button" className="btn mt-2 mb-3 ml-3  btn-lg btn-dark">GitHub Profile</button></a>
                             
                         </div>
                     </div>

@@ -25,7 +25,7 @@ class Project2 extends Component {
                             <h1 >Portfolio<h1 className="textstrong">Website</h1></h1>
                             <p className="d-sm-block ">Personal project developed with <br></br><em className='textstrong'>React</em> and other technologies.</p>
 
-                            <a href="https://github.com/felipepizarro1/reactPortfolioProject" target="_blank"><button type="button"  data-toggle="modal" data-target="#adoptapet" class="btn mt-4  btn-lg btn-outline-light">View Code</button></a>
+                            <a href="https://github.com/felipepizarro1/reactPortfolioProject" target="_blank"><button type="button"  data-toggle="modal" data-target="#adoptapet" class="btn mt-4  btn-lg btn-dark">View Code</button></a>
                         
                         </div>
                         <div class="col-md-7 col-12 ">

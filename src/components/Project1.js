@@ -24,8 +24,8 @@ class Project1 extends Component {
                     
                         <h1 >Pets Website<h1 className="textstrong">Scrolling FX</h1></h1>
                         <p className="d-sm-block ">Project created for the Nucamp's <br></br><em className='textstrong'>Bootstrap Course</em></p>
-                        <a href="https://argospets.netlify.app/" target="_blank"><button type="button"  data-toggle="modal" data-target="#adoptapet" class="btn mt-4 mr-2 btn-lg btn-outline-light">View Live</button></a>
-                        <a href="https://github.com/felipepizarro1/argos-website" target="_blank"><button type="button"  data-toggle="modal" data-target="#adoptapet" class="btn mt-4  btn-lg btn-outline-light">View Code</button></a>
+                        <a href="https://argospets.netlify.app/" target="_blank"><button type="button"  data-toggle="modal" data-target="#adoptapet" class="btn mt-4 mr-2 btn-lg btn-dark">View Live</button></a>
+                        <a href="https://github.com/felipepizarro1/argos-website" target="_blank"><button type="button"  data-toggle="modal" data-target="#adoptapet" class="btn mt-4  btn-lg btn-dark">View Code</button></a>
                     
                     </div>
                     <div class="col-md-7 col-12 ">
