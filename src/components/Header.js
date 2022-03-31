@@ -40,9 +40,12 @@ class Header extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col mt-5 ml-5 col-sm-5 ">
-                            <div className='container mt-2 d-flex'>
+                            <div className='container mt-2 d-flex '>
+                                
                                 <a className="btn btn-social-icon " href="https://github.com/felipepizarro1" target="_blank"><i className="fa fa-github" /></a>{' '}
+                                <a className="btn btn-social-icon ml-1 " href="https://www.behance.net/felipepizarrodev" target="_blank"><i className="fa fa-behance" /></a>{' '}
                                 <a className="btn btn-social-icon ml-1" href="https://www.linkedin.com/in/felipepizarrodev" target="_blank"><i className="fa fa-linkedin" /></a>{' '}
+                                
                             </div>
                         </div>
 
