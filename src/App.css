@@ -145,3 +145,9 @@ p {
     font-weight: 750;
     
 }
+
+header {
+position: sticky;
+top: 0;
+
+}
